@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #232F3E;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+}
+
+.filters {
+    width: 20%;
+    background-color: #F3F3F3;
+    padding: 20px;
+}
+
+.filters h2,
+.filters h3 {
+    margin-top: 0;
+}
+
+.filters ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.filters ul li {
+    margin-bottom: 10px;
+}
+
+.filters label {
+    margin-left: 5px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    padding: 20px;
+    justify-content: space-around;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 200px;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+    border-bottom: 1px solid #DDD;
+    margin-bottom: 15px;
+}
+
+.product-card h3 {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.product-card p {
+    font-size: 1.1em;
+    color: #b12704;
+}
+
+.product-card button {
+    background-color: #FFA41C;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.product-card button:hover {
+    background-color: #FF8F00;
+}
